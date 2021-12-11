@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <div style="display:none">
-    <audio controls autoplay loop>
-        <source src="eggy.ogg" type="audio/ogg">
-        <source src="eggy.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio>
-      </div>
+  <iframe src="eggy.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  </iframe> 
+  <audio autoplay loop  id="eggy">
+    <source src="audio/source.mp3">
+</audio>
+<script>  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }</script>
       
         <head>
             <link rel="stylesheet" href="styles.css">
