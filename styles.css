@@ -13,6 +13,8 @@
 @-webkit-keyframes spin { 0% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 0% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+@font-face { font-family: funny; src: url('funny.ttf'); } 
+
 .center {
     position: absolute;
     top: 60%;
@@ -24,12 +26,12 @@
 a:link {
     color: cyan;
     text-decoration: none;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: funny;
   }
   
   /* visited link */
   a:visited {
     color: cyan;
     text-decoration: none;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: funny;
   }
