@@ -19,3 +19,17 @@
     left: 42.3%;
     height: 150px;
   }
+
+  /* unvisited link */
+a:link {
+    color: cyan;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: cyan;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
