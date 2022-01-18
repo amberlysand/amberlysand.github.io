@@ -4,39 +4,64 @@
     left: 50%;
     width: 120px;
     height: 120px;
-    margin:-60px 0 0 -60px;
-    -webkit-animation:spin 1s linear infinite;
-    -moz-animation:spin 1s linear infinite;
-    animation:spin 1s linear infinite;
+    margin: -60px 0 0 -60px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
 }
-@-moz-keyframes spin { 0% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 0% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 0% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-@font-face { font-family: funny; src: url('funny.ttf'); } 
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: funny;
+    src: url('funny.ttf');
+}
 
 .center {
     position: absolute;
     top: 60%;
     left: 42.3%;
     height: 150px;
-  }
+}
 
-  /* unvisited link */
+
+/* unvisited link */
+
 a:link {
     color: cyan;
     text-decoration: none;
     font-family: funny;
-  }
-  
-  /* visited link */
-  a:visited {
+}
+
+
+/* visited link */
+
+a:visited {
     color: cyan;
     text-decoration: none;
     font-family: funny;
-  }
-  
+}
+
+
 /* mouse over link */
+
 a:hover {
     color: hotpink;
-  }
+}
