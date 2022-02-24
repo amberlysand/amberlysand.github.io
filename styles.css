@@ -65,3 +65,57 @@ a:visited {
 a:hover {
     color: hotpink;
 }
+
+.links {
+    position: absolute;
+    top: 25%;
+    left: 42.3%;
+    height: 150px;
+}
+
+.realcenter {
+    position: absolute;
+    top: 0%;
+    left: 42.3%;
+    height: 150px;
+    color: yellow;
+}
+
+.realcenterbutpink {
+    position: absolute;
+    top: 0%;
+    left: 42.3%;
+    height: 100px;
+    color: rgb(255, 0, 212);
+}
+
+h1 {
+    font-family: funny
+}
+
+li {
+    font-family: funny
+}
+
+p {
+    font-family: funny;
+}
+
+pre {
+    font-family: funny;
+}
+
+.yeah {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    height: 300px;
+    color: whitesmoke;
+}
+
+button {
+    position: absolute top: 80%;
+    left: 60%;
+    color: hotpink;
+    font-family: funny
+}
